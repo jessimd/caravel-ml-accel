@@ -22,7 +22,7 @@ set ::env(DESIGN_NAME) user_proj_example
 
 set ::env(VERILOG_FILES) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/user_proj_example.v"
+	/home/ubuntu/caravel-ml-accel/verilog/rtl/user_proj_example.v"
 
 set ::env(DESIGN_IS_CORE) 0
 
